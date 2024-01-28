@@ -1,0 +1,21 @@
+{
+    "idf.adapterTargetName": "esp32c3",
+    "idf.openOcdConfigs": [
+        "board/esp32c3-ftdi.cfg"
+    ],
+    "idf.portWin": "COM13",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "freertos.h": "c",
+        "mac_list.h": "c",
+        "esp_wifi.h": "c",
+        "compare": "cpp",
+        "concepts": "cpp",
+        "type_traits": "cpp",
+        "cmath": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "device_list.h": "c",
+        "nvs_flash.h": "c"
+    }
+}
